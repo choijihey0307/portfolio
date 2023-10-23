@@ -57,7 +57,7 @@ section#profile .profile_main .p_right dl { padding-top: 70px; padding-left: 50p
 section#profile .profile_main .p_right dl dt { font-size: 50px; margin-bottom: 30px; } 
 section#profile .profile_main .p_right dl dd span { color: #8b72e8; } 
 section#profile .profile_main .p_right dl dt span { /* 글자 안에 그라데이션 주기 */
- background: linear-gradient(to left, #8b72e8, #83b9f3);-webkit-background-clip:text; -webkit-text-fill-color: transparent; } 
+ background: linear-gradient(to left, #8b72e8, #83b9f3); -webkit-background-clip:text; -webkit-text-fill-color: transparent; } 
 section#profile .profile_main .p_right dl dd { margin-top: 50px; font-size: 18px; line-height: 1.7; } 
 /* 메인 전체 타이틀 */
 section h2 { font-size: 17px; margin: 0 auto; border-bottom: 1px solid gray; width: 90px; padding-bottom: 20px; font-family: 'SpoqaR'; text-align: center;}
@@ -122,7 +122,9 @@ section#portfolio .portfolio_main dl:nth-child(4) dd h5 { font-size: 55px; margi
 section#portfolio .portfolio_main dl:nth-child(4) dd p { font-size: 17px; line-height: 1.7; } 
 section#portfolio .portfolio_main dl:nth-child(4) dd p.site_btn a { display: block; width: 100px; padding: 10px 70px; margin-top: 30px; text-align: center; color: #000; transition: .5s; letter-spacing: 5px; border: 1px solid #444; float: right; } 
 section#portfolio .portfolio_main dl:nth-child(4) dd p.site_btn a:hover { border: 1px solid #8b72e8; color: #8b72e8; } 
-section#portfolio .portfolio_main dl:nth-child(4) dd p.clickdown{}
+section#portfolio .portfolio_main dl:nth-child(4) dd p.clickdown a:hover{color: #83b9f3; }
+section#portfolio .portfolio_main dl:nth-child(4) dd p.clickdown a{color:#8b72e8; font-size: 25px;}
+
 /* pf-05 */
 section#portfolio .portfolio_main dl:nth-child(5) { position: relative; clear: both; } 
 section#portfolio .portfolio_main dl:nth-child(5) dt { background: url(../images/mockups6.png)no-repeat 120px 80px; background-size: 85%; } 
@@ -132,7 +134,8 @@ section#portfolio .portfolio_main dl:nth-child(5) dd h5 { font-size: 55px; margi
 section#portfolio .portfolio_main dl:nth-child(5) dd p { font-size: 17px; line-height: 1.7; } 
 section#portfolio .portfolio_main dl:nth-child(5) dd p.site_btn a { display: block; width: 100px; padding: 10px 70px; margin-top: 30px; text-align: center; color: #000; transition: .5s; letter-spacing: 5px; border: 1px solid #444; } 
 section#portfolio .portfolio_main dl:nth-child(5) dd p.site_btn a:hover { border: 1px solid #8b72e8; color: #8b72e8; } 
-
+section#portfolio .portfolio_main dl:nth-child(5) dd p.clickdown a:hover{color: #83b9f3; }
+section#portfolio .portfolio_main dl:nth-child(5) dd p.clickdown a{color:#8b72e8; font-size: 25px;}
 
 
 
